@@ -1,0 +1,33 @@
+{
+  "id": "e83b588e-185f-4178-96b0-1ebe79a2fb60",
+  "name": "smalltalk.greetings.nice_to_talk_to_you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.nice_to_talk_to_you",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "It sure was. We can chat again anytime.",
+            "I enjoy talking to you, too.",
+            "You know I\u0027m here to talk anytime."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529623837,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "value": "hand tossed",
+    "synonyms": [
+      "hand-tossed",
+      "hand"
+    ]
+  },
+  {
+    "value": "thin",
+    "synonyms": [
+      "thin crust",
+      "thin"
+    ]
+  },
+  {
+    "value": "pan",
+    "synonyms": [
+      "pan-pizza",
+      "pan pizza",
+      "pan"
+    ]
+  },
+  {
+    "value": "grilled",
+    "synonyms": [
+      "grilled",
+      "grilled crust"
+    ]
+  },
+  {
+    "value": "normal",
+    "synonyms": [
+      "normal"
+    ]
+  },
+  {
+    "value": "no",
+    "synonyms": [
+      "no crust",
+      "no"
+    ]
+  }
+]

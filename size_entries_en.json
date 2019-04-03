@@ -1,0 +1,27 @@
+[
+  {
+    "value": "small",
+    "synonyms": [
+      "Small",
+      "s",
+      "mini",
+      "sml"
+    ]
+  },
+  {
+    "value": "medium",
+    "synonyms": [
+      "Medium",
+      "m",
+      "med"
+    ]
+  },
+  {
+    "value": "large",
+    "synonyms": [
+      "lar",
+      "l",
+      "larg"
+    ]
+  }
+]

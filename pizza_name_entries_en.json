@@ -1,0 +1,78 @@
+[
+  {
+    "value": "Farm House",
+    "synonyms": [
+      "farm house",
+      "farm"
+    ]
+  },
+  {
+    "value": "Supreme Veg",
+    "synonyms": [
+      "supreme veg",
+      "veg supreme"
+    ]
+  },
+  {
+    "value": "Pacific Veg",
+    "synonyms": [
+      "pacific veg",
+      "pacific"
+    ]
+  },
+  {
+    "value": "Margherita",
+    "synonyms": [
+      "margherita"
+    ]
+  },
+  {
+    "value": "Paneer tikka",
+    "synonyms": [
+      "paneer tikka",
+      "paneer"
+    ]
+  },
+  {
+    "value": "Chicken barbeque",
+    "synonyms": [
+      "barbeque chicken",
+      "Chicken Barbeque"
+    ]
+  },
+  {
+    "value": "Keema masala",
+    "synonyms": [
+      "keema masala",
+      "keema",
+      "Keema Masala"
+    ]
+  },
+  {
+    "value": "Chicken golden delight",
+    "synonyms": [
+      "chicken golden delight",
+      "golden delight chicken",
+      "Chicken Golden Delight"
+    ]
+  },
+  {
+    "value": "Chicken fiesta",
+    "synonyms": [
+      "chicken fiesta",
+      "fiesta chicken",
+      "Chicken Fiesta"
+    ]
+  },
+  {
+    "value": "Supreme Nonveg",
+    "synonyms": [
+      "supreme nonveg",
+      "supreme non-veg",
+      "supreme non veg",
+      "non veg supreme",
+      "non-veg supreme",
+      "nonveg supreme"
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "id": "f172d839-5ffa-495f-814c-96a5847310db",
+  "name": "smalltalk.greetings.whatsup",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.whatsup",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Not a whole lot. What\u0027s going on with you?",
+            "Not much. What\u0027s new with you?",
+            "Just here, waiting to help someone. What can I do for you?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529517196,
+  "fallbackIntent": false,
+  "events": []
+}

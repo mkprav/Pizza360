@@ -1,0 +1,56 @@
+{
+  "id": "8e2826dc-3f66-43fb-afe8-fd5ff3c39925",
+  "name": "pizza.user.details",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2d8ef467-e303-4ba5-ba3a-65f40b1e0240",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell me your name..."
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "1cdc502d-a650-4d1f-a3ac-8db7058cc1bc",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phno",
+          "value": "$phno",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Great! What\u0027s your mobile number, $name?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you $name, your account is created successfully."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

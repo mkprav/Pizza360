@@ -1,0 +1,52 @@
+[
+  {
+    "value": "onion",
+    "synonyms": [
+      "onion"
+    ]
+  },
+  {
+    "value": "mushroom",
+    "synonyms": [
+      "mushroom"
+    ]
+  },
+  {
+    "value": "tomato",
+    "synonyms": [
+      "tomato"
+    ]
+  },
+  {
+    "value": "capsicum",
+    "synonyms": [
+      "capsicum"
+    ]
+  },
+  {
+    "value": "olives",
+    "synonyms": [
+      "olives"
+    ]
+  },
+  {
+    "value": "baby corn",
+    "synonyms": [
+      "baby corn"
+    ]
+  },
+  {
+    "value": "sweet corn",
+    "synonyms": [
+      "sweet corn"
+    ]
+  },
+  {
+    "value": "no",
+    "synonyms": [
+      "no",
+      "not required",
+      "no toppings"
+    ]
+  }
+]

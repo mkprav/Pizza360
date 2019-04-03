@@ -1,0 +1,36 @@
+{
+  "id": "cdabd650-1f17-4974-a5d1-0a5f4c1e4f17",
+  "name": "pizza.order.status",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "69806573-eeea-45ad-9025-1467f2973ea1",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "oid",
+          "value": "$oid",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell me your order id..."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,119 @@
+{
+  "id": "fef80352-63aa-4691-9cb3-28dd7938f6b5",
+  "name": "pizza.order",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "41428287-f9d3-4d8e-87b7-a30f039da116",
+          "required": true,
+          "dataType": "@type",
+          "name": "type",
+          "value": "$type",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Veg or Non-veg?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "87cd1cb7-36ab-4cfd-8385-9f44912d2bd0",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "pizza_name",
+          "value": "$pizza_name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which one in $type would you like to order?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "2268ffad-e927-4d40-b5d2-e49252aff388",
+          "required": true,
+          "dataType": "@size",
+          "name": "size",
+          "value": "$size",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which size pizza would you like to have?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "16aea1b7-76af-4083-a699-96d506971220",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "crust",
+          "value": "$crust",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Would you like any particular crust?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "e27c650e-c4e0-4513-ae94-204e5fead8f0",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "toppings",
+          "value": "$toppings",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Would you like to add any additional toppings?"
+            },
+            {
+              "lang": "en",
+              "value": "Which ones?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "d72a7205-696c-4aa2-9fcd-a028100473e5",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "uid",
+          "value": "$uid",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your user id.."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thanks, your order is placed successfully."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

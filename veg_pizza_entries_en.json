@@ -1,0 +1,36 @@
+[
+  {
+    "value": "Farm House",
+    "synonyms": [
+      "Farm House",
+      "farm"
+    ]
+  },
+  {
+    "value": "Supreme veg",
+    "synonyms": [
+      "Supreme veg",
+      "supreme"
+    ]
+  },
+  {
+    "value": "Paneer Tikka",
+    "synonyms": [
+      "Paneer Tikka",
+      "paneer"
+    ]
+  },
+  {
+    "value": "Margherita",
+    "synonyms": [
+      "Margherita"
+    ]
+  },
+  {
+    "value": "Pacific veg",
+    "synonyms": [
+      "Pacific veg",
+      "pacific"
+    ]
+  }
+]

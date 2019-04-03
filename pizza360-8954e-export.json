@@ -1,0 +1,372 @@
+{
+  "orders" : {
+    "1001" : {
+      "crust" : "crust",
+      "food" : "veg pizza",
+      "size" : "size",
+      "status" : "pending",
+      "topping" : "topping",
+      "type" : "type",
+      "uid" : "1"
+    },
+    "1002" : {
+      "crust" : "crust",
+      "food" : "some pizza",
+      "size" : "size",
+      "status" : "dlvrd",
+      "topping" : "topping",
+      "type" : "type",
+      "uid" : "2"
+    },
+    "1003" : {
+      "crust" : "crust",
+      "food" : "Pepproni",
+      "size" : "size",
+      "status" : "DLVRD",
+      "topping" : "topping",
+      "type" : "type",
+      "uid" : 2
+    },
+    "1005" : {
+      "crust" : "crust",
+      "food" : "Pepproni",
+      "size" : "size",
+      "status" : "DLVRD",
+      "topping" : "topping",
+      "type" : "type",
+      "uid" : 2
+    },
+    "1006" : {
+      "crust" : "crust",
+      "food" : "Peppy Paneer",
+      "size" : "size",
+      "status" : "PLACED",
+      "topping" : "topping",
+      "type" : "type",
+      "uid" : 3
+    },
+    "1009" : {
+      "crust" : "crust",
+      "food" : "Peppy Paneer",
+      "size" : "size",
+      "status" : "PLACED",
+      "topping" : "topping",
+      "type" : "type",
+      "uid" : 3
+    },
+    "8825" : {
+      "crust" : "thin",
+      "food" : "Paneer tikka",
+      "size" : "Small",
+      "status" : "Your pizza is in the oven!",
+      "toppings" : [ "no" ],
+      "type" : "Veg",
+      "uid" : 139542
+    },
+    "13141" : {
+      "crust" : "pan",
+      "food" : "cheese margherita",
+      "size" : "Small",
+      "status" : "Your pizza is in the oven!",
+      "toppings" : "onion",
+      "type" : "Veg",
+      "uid" : 93114
+    },
+    "17953" : {
+      "crust" : "Yes",
+      "food" : "Spicy",
+      "size" : "small",
+      "status" : "Your order is placed!",
+      "toppings" : "Yes",
+      "type" : "Non-veg",
+      "uid" : 1234
+    },
+    "19954" : {
+      "crust" : "no",
+      "food" : "Paneer tikka",
+      "size" : "Medium",
+      "status" : "order placed",
+      "toppings" : [ "no" ],
+      "type" : "Veg",
+      "uid" : 12345
+    },
+    "21612" : {
+      "crust" : "No",
+      "food" : "Spicy",
+      "size" : "small",
+      "status" : "Your order is placed!",
+      "toppings" : "No",
+      "type" : "Non-veg",
+      "uid" : 43788
+    },
+    "27301" : {
+      "crust" : [ "no" ],
+      "food" : [ "Paneer tikka" ],
+      "size" : [ "Small" ],
+      "status" : "order placed",
+      "toppings" : [ "no" ],
+      "type" : [ "Veg" ],
+      "uid" : 12345
+    },
+    "39936" : {
+      "crust" : "no",
+      "food" : "paneer",
+      "size" : "Small",
+      "status" : "Your pizza is in the oven!",
+      "toppings" : "no",
+      "type" : "Veg",
+      "uid" : 1234
+    },
+    "42854" : {
+      "crust" : "no",
+      "food" : "supreme veg",
+      "size" : "small",
+      "status" : "Your order is placed!",
+      "toppings" : "onion and pear",
+      "type" : "Veg",
+      "uid" : 125066
+    },
+    "51984" : {
+      "crust" : "no",
+      "food" : "Paneer tikka",
+      "size" : "Medium",
+      "status" : "Your pizza is in the oven!",
+      "toppings" : [ "no" ],
+      "type" : "Veg",
+      "uid" : 139542
+    },
+    "52232" : {
+      "crust" : "pan",
+      "food" : "farm house",
+      "size" : "small",
+      "status" : "Your order is placed!",
+      "toppings" : "onion",
+      "type" : "Veg",
+      "uid" : 37412
+    },
+    "53818" : {
+      "crust" : "no",
+      "food" : "Farm House",
+      "size" : "Medium",
+      "status" : "Your pizza is in the oven!",
+      "toppings" : [ "no" ],
+      "type" : "Veg",
+      "uid" : 144772
+    },
+    "62692" : {
+      "crust" : "pan",
+      "food" : "Supreme Veg",
+      "size" : "Medium",
+      "status" : "Your pizza is in the oven!",
+      "toppings" : [ "onion" ],
+      "type" : "Veg",
+      "uid" : 144772
+    },
+    "64743" : {
+      "crust" : "pan",
+      "food" : "chicken tikka",
+      "size" : "small",
+      "status" : "Your order is placed!",
+      "toppings" : "onion",
+      "type" : "Non-veg",
+      "uid" : 179378
+    },
+    "70981" : {
+      "crust" : "no",
+      "food" : "Paneer tikka",
+      "size" : "Medium",
+      "status" : "order placed",
+      "toppings" : [ "no" ],
+      "type" : "Veg",
+      "uid" : 145678
+    },
+    "73929" : {
+      "crust" : "no",
+      "food" : "Paneer tikka",
+      "size" : "Medium",
+      "status" : "Your pizza is in the oven!",
+      "toppings" : "no",
+      "type" : "Veg",
+      "uid" : 19138
+    },
+    "76503" : {
+      "crust" : "Yes",
+      "food" : "Spicy",
+      "size" : "small",
+      "status" : "Your order is placed!",
+      "toppings" : "No",
+      "type" : "Non-veg",
+      "uid" : 5
+    },
+    "86059" : {
+      "crust" : "hand tossed",
+      "food" : "Paneer tikka",
+      "size" : "Medium",
+      "status" : "order placed",
+      "toppings" : [ "onion" ],
+      "type" : "Veg",
+      "uid" : 123
+    },
+    "104067" : {
+      "crust" : "no",
+      "food" : "cheese supreme",
+      "size" : "small",
+      "status" : "Your order is placed!",
+      "toppings" : "no",
+      "type" : "Veg",
+      "uid" : 93114
+    },
+    "104660" : {
+      "crust" : "pan",
+      "food" : "Paneer tikka",
+      "size" : "Small",
+      "status" : "order placed",
+      "toppings" : "onion",
+      "type" : "Veg",
+      "uid" : 101
+    },
+    "111752" : {
+      "crust" : "no",
+      "food" : "Paneer tikka",
+      "size" : "Small",
+      "status" : "order placed",
+      "toppings" : [ "no" ],
+      "type" : "Veg",
+      "uid" : 12345
+    },
+    "114235" : {
+      "crust" : "thin",
+      "food" : "Paneer tikka",
+      "size" : "Medium",
+      "status" : "order placed",
+      "toppings" : [ "onion" ],
+      "type" : "Veg",
+      "uid" : 144772
+    },
+    "125351" : {
+      "crust" : "normal",
+      "food" : "double cheese supreme",
+      "size" : "small",
+      "status" : "Your order is placed!",
+      "toppings" : "onion and tomato",
+      "type" : "Veg",
+      "uid" : 93114
+    },
+    "133452" : {
+      "crust" : "no",
+      "food" : "supreme",
+      "size" : "small",
+      "status" : "Your order is placed!",
+      "toppings" : "no",
+      "type" : "Veg",
+      "uid" : 51278
+    },
+    "159051" : {
+      "crust" : "hand tossed",
+      "food" : "Paneer tikka",
+      "size" : "Medium",
+      "status" : "order placed",
+      "toppings" : [ "onion" ],
+      "type" : "Veg",
+      "uid" : 12345
+    },
+    "159451" : {
+      "crust" : "no",
+      "food" : "farm",
+      "size" : "Small",
+      "status" : "Your pizza is in the oven!",
+      "toppings" : "no",
+      "type" : "Veg",
+      "uid" : 19138
+    },
+    "168526" : {
+      "crust" : "no",
+      "food" : "Paneer tikka",
+      "size" : "Small",
+      "status" : "Your pizza is in the oven!",
+      "toppings" : "no",
+      "type" : "Veg",
+      "uid" : 144772
+    }
+  },
+  "users" : {
+    "101" : {
+      "name" : "MS",
+      "phone_no" : "8997"
+    },
+    "102" : {
+      "name" : "some",
+      "phone_no" : "7689"
+    },
+    "103" : {
+      "name" : "Chocolate",
+      "phone_no" : "123"
+    },
+    "9335" : {
+      "name" : {
+        "given-name" : "Ram"
+      },
+      "phone_no" : "9876545638"
+    },
+    "19138" : {
+      "name" : "peter",
+      "phone_no" : "8909876567"
+    },
+    "24356" : {
+      "name" : "Ram",
+      "phone_no" : "908643355"
+    },
+    "27210" : {
+      "name" : "Pravallika",
+      "phone_no" : "9006664108"
+    },
+    "37412" : {
+      "name" : "Prakash",
+      "phone_no" : "9890976756"
+    },
+    "43788" : {
+      "name" : "Haren",
+      "phone_no" : "8790635636"
+    },
+    "51278" : {
+      "name" : "pranav",
+      "phone_no" : "9868790876"
+    },
+    "56727" : {
+      "name" : "Pravallika",
+      "phone_no" : "900875645"
+    },
+    "89024" : {
+      "name" : "Pranav",
+      "phone_no" : "9087675645"
+    },
+    "93114" : {
+      "name" : "rashid",
+      "phone_no" : "9087897867"
+    },
+    "125066" : {
+      "name" : "pravallika",
+      "phone_no" : "9876567898"
+    },
+    "132806" : {
+      "name" : "Pravallika",
+      "phone_no" : "9878765647"
+    },
+    "139542" : {
+      "name" : "alez",
+      "phone_no" : "9878908767"
+    },
+    "144772" : {
+      "name" : "pravallika",
+      "phone_no" : "9087676545"
+    },
+    "179378" : {
+      "name" : "prakash",
+      "phone_no" : "9878678989"
+    },
+    "179982" : {
+      "name" : "order pizza",
+      "phone_no" : "8775698090"
+    }
+  }
+}

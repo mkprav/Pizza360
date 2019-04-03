@@ -1,0 +1,140 @@
+[
+  {
+    "id": "4404aeee-12db-4d88-b192-fa9e1ec69678",
+    "data": [
+      {
+        "text": "order pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "55eabc32-9739-4079-b4ca-17d86358c3b2",
+    "data": [
+      {
+        "text": "medium",
+        "alias": "size",
+        "meta": "@size",
+        "userDefined": false
+      },
+      {
+        "text": " pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "baa4ab35-03f6-400a-aea6-90e01f3c23ec",
+    "data": [
+      {
+        "text": "onion",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "sweet corn",
+        "alias": "toppings",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "85ca3b49-67ef-4811-af21-9b94160d3a9a",
+    "data": [
+      {
+        "text": "medium",
+        "alias": "size",
+        "meta": "@size",
+        "userDefined": false
+      },
+      {
+        "text": " pizza with ",
+        "userDefined": false
+      },
+      {
+        "text": "onion",
+        "alias": "toppings",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "hand-tossed",
+        "alias": "crust",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "9c4c4db1-3b25-4721-8339-889d7ba88ac9",
+    "data": [
+      {
+        "text": "pizza order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1a471dd7-fa81-4f9b-9fb9-b37f2f5cd867",
+    "data": [
+      {
+        "text": "buy pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9e8e304c-17e9-4584-a94f-eccf100478ff",
+    "data": [
+      {
+        "text": "please order a pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "707d280a-a0f9-4ace-a7a0-6c9d6a1ce99a",
+    "data": [
+      {
+        "text": "Can i buy pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e941bcb6-7b1b-44b9-8531-3ccc42ad742f",
+    "data": [
+      {
+        "text": "I want a pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

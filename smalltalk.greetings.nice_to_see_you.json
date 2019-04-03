@@ -1,0 +1,33 @@
+{
+  "id": "31280c1f-6e58-47b4-93fe-c255a5c5cad4",
+  "name": "smalltalk.greetings.nice_to_see_you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.nice_to_see_you",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Likewise!",
+            "So glad we meet again!",
+            "Same here. I was starting to miss you."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529623835,
+  "fallbackIntent": false,
+  "events": []
+}

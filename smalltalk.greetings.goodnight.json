@@ -1,0 +1,33 @@
+{
+  "id": "d8976a4c-6c5d-4412-81a9-f453064bdaf2",
+  "name": "smalltalk.greetings.goodnight",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.goodnight",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Sleep tight!",
+            "Have a good one!",
+            "Talk to you soon!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529623913,
+  "fallbackIntent": false,
+  "events": []
+}
