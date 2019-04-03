@@ -23,7 +23,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
  
  
   function welcome(agent) {
-    agent.add(`Welcome to agent!`);
+    agent.add(`Welcome to Pizza360!`);
   }
  
   function fallback(agent) {
@@ -76,19 +76,10 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     });
       /*return admin.database().ref('users/' + uid).once('value').then((snapshot) => {
     	const value = snapshot.val().name;
-      	if(value !== null){
-        	agent.add(`Data from db is ${value}`);
+      	if(value !== null){*/
+        	agent.add(`Thank you ${name}, your account is created successfully and your User Id is ${uid}`);
          
         }
-   
-
-
-console.log(`Data from db is ${value}`);
-      });*/
- 
-        
-    }
-
      
  
   function pizza_order(agent){
@@ -107,22 +98,23 @@ console.log(`Data from db is ${value}`);
         crust : crust,
         toppings : toppings,
         uid : uid,
-       status: "order placed"
+       status: "Your order is placed!"
     });
     
-           admin.database().ref('users/' + uid).once('value').then((snapshot) => {
+      return admin.database().ref('users/' + uid).once('value').then((snapshot) => {
      if(snapshot.val()) {
        const value = snapshot.val().uid;
+       
       	if(value !== null){
-        	agent.add(`Your order with ${oid} is placed successfully.`);
+        	agent.add(`Your order of ${pizza_name}-${size} with ${crust} crust and ${toppings} toppings is placed successfully and your Order Id is ${oid}.`);
         }}
-     /*else
-          agent.add(`User id is invalid`);*/
+     else
+          agent.add(`User id is invalid`);
         });
     
-   /* user_details();
-    order_Id_generate();*/
+
   }
+                                                                 
   
   /*function user_details(agent)
   {
@@ -138,31 +130,27 @@ console.log(`Data from db is ${value}`);
   }*/
   function checkOrderStatus(agent){
     const oid = agent.parameters.oid;
- 
+    var a;
+   // var delay = 5000; //5 second
+
+
    return admin.database().ref('orders/' + oid).once('value').then((snapshot) => {
      if(snapshot.val()) {
-       const value = snapshot.val().status;
-      	if(value !== null){
-        	agent.add(`Your order status is ${value}`);
+       const value1 = snapshot.val().status;
+       const value2 = snapshot.val().food;
+       const value3 = snapshot.val().crust;
+       const value4 = snapshot.val().toppings;
+       const value5 = snapshot.val().size;
+      	if(value1 !== null){
+          //agent.add(`Your have ordered ${value2} - ${value5} with ${value3} crust and ${value4} toppings`);
+           //agent.add(`Checking your order status...`);
+           //a=1+200;
+           agent.add(`Your ${value2} - ${value5} with ${value3} crust and ${value4} toppings is in the oven!`);
+           
+        	
         }}
      else
           agent.add(`Order id is invalid`);
         });
         
    }
-                                                         
-  
-  
-  // Run the proper function handler based on the matched Dialogflow intent name
-  let intentMap = new Map();
-  intentMap.set('Default Welcome Intent', welcome);
-  intentMap.set('Default Fallback Intent', fallback);
-  //intentMap.set('actions.intent.OPTION', getOption);
-  intentMap.set('pizza.order', pizza_order);
-  //intentMap.set('pizza.order -veg', veg);
-  //intentMap.set('pizza.order -nonveg', nonveg);
-  intentMap.set('pizza.user.details', saveuserToDb);
-  //intentMap.set('pizza.order.id', order_Id_generate);
-  intentMap.set('pizza.order.status', checkOrderStatus);
-  agent.handleRequest(intentMap);
-});
